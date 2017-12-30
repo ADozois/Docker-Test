@@ -9,5 +9,5 @@ services:
   - docker
 
 before_install:
-  - docker pull antoinedo/get-started
+  - docker pull antoinedo/get-started:Part2
   - docker build -t friendlyhello
